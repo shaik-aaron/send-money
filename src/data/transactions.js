@@ -1,0 +1,51 @@
+export default [
+    {
+        id: 1,
+        type: "Sent",
+        name: "Steam",
+        date: "16 July 2023",
+        amount: "2,300 INR",
+    },
+    {
+        id: 2,
+        type: "Sent",
+        name: "Steam",
+        date: "16 July 2023",
+        amount: "2,300 INR",
+    },
+    {
+        id: 3,
+        type: "Sent",
+        name: "Steam",
+        date: "16 July 2023",
+        amount: "2,300 INR",
+    },
+    {
+        id: 4,
+        type: "Received",
+        name: "Sooraj M Singh",
+        date: "12 July 2023",
+        amount: "23 USD",
+    },
+    {
+        id: 4,
+        type: "Received",
+        name: "Aditya Pani",
+        date: "12 July 2023",
+        amount: "2 USD",
+    },
+    {
+        id: 5,
+        type: "Received",
+        name: "Aditya Pani",
+        date: "12 July 2023",
+        amount: "2 USD",
+    },
+    {
+        id: 6,
+        type: "Failed to send",
+        name: "Questionable Website",
+        date: "12 July 2023",
+        amount: "2 USD",
+    },
+];

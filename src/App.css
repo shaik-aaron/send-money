@@ -1,38 +1,213 @@
-.App {
-  text-align: center;
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo {
+    width: 138px;
+    height: 38px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 74px;
+    padding: 0 64px;
+    border-bottom: 1px solid #e9e9e9;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav--buttons {
+    display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.bell {
+    margin-right: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav--button {
+    height: 42px;
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    border-radius: 50%;
+}
+
+.content {
+    display: flex;
+    position: relative;
+    flex: 1;
+}
+
+.sidenav {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 54px 28px 32px;
+    border-right: 1px solid #e9e9e9;
+    width: 286px;
+}
+
+.sidenav--button {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    width: 230px;
+    height: 48px;
+}
+
+.sidenav--img {
+    height: 24px;
+    width: 24px;
+    margin-right: 12px;
+}
+
+.send--money {
+    width: 230px;
+    height: 48px;
+    border-radius: 8px;
+    background: #f99696;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+main {
+    padding-top: 56px;
+    padding-left: 48px;
+}
+
+.your--account {
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#currency--container {
+    margin-top: 4px;
+    padding: 20px;
+    max-width: 1126px;
+    overflow: auto;
+    cursor: grab;
+    display: flex;
+    -webkit-sticky: true;
+}
+
+.currency {
+    min-width: 292px;
+    height: 147px;
+    padding: 24px;
+    margin-right: 20px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.09);
+}
+
+.country--image {
+    width: 48px;
+    height: 48px;
+}
+
+.value {
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.currency--name {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+#transactions {
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.transactions--text {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.arrow--div {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #363636;
+    border-radius: 50%;
+    margin-right: 32px;
+}
+
+.arrow--div--error {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #363636;
+    border-radius: 50%;
+    margin-right: 32px;
+    background: #f46855;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-right: 64px;
+}
+
+.group-1 {
+    display: flex;
+    align-items: center;
+}
+
+.group-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.account--name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.type {
+    color: #7a7a7a;
+    font-size: 14px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rectangle {
+    width: 4px;
+    height: 4px;
+    background: #afafaf;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.amount {
+    font-size: 20px;
+    font-weight: 700;
 }
