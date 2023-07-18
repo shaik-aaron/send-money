@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/send-money/static/css/main.e8ccdf65.css",
+    "main.js": "/send-money/static/js/main.bd71f832.js",
+    "static/media/logo.svg": "/send-money/static/media/logo.9362d9ff85e32886d1a7373c41d3e0f2.svg",
+    "static/media/India.svg": "/send-money/static/media/India.3da04c23d932d0c4aafad3df84613dba.svg",
+    "static/media/UnitedStatesofAmerica.svg": "/send-money/static/media/UnitedStatesofAmerica.c49d16ea221db654ffe3e61a26d9e9b0.svg",
+    "static/media/Antarctica.svg": "/send-money/static/media/Antarctica.b9e182c7fd09327f54ad35a37be562f0.svg",
+    "static/media/users.svg": "/send-money/static/media/users.33910b9a4ac002c5272bf7b2f899dd6e.svg",
+    "static/media/UnitedKingdom.svg": "/send-money/static/media/UnitedKingdom.4622bad404b91e463cf8f5671477e031.svg",
+    "index.html": "/send-money/index.html",
+    "static/media/bell.svg": "/send-money/static/media/bell.2d864b18faf1df4ec78451c302ff4524.svg",
+    "static/media/exclaim.svg": "/send-money/static/media/exclaim.658260c3f59b69d6bfdd536aaf4d82b0.svg",
+    "static/media/user.svg": "/send-money/static/media/user.5037e2a5e852caec44a0aa201d61da49.svg",
+    "static/media/columns.svg": "/send-money/static/media/columns.18c73d05dd09a5214a4ce64fee5e824e.svg",
+    "static/media/home.svg": "/send-money/static/media/home.1a92e46288b0e3c4002e359aeaf76a38.svg",
+    "static/media/Sweden.svg": "/send-money/static/media/Sweden.cb7c96ceb399acbd9a7f46539ab869fb.svg",
+    "static/media/arrow-down.svg": "/send-money/static/media/arrow-down.0616e7f7c2e6bcafd7dddb6ec78dd873.svg",
+    "static/media/arrow-up.svg": "/send-money/static/media/arrow-up.688355b080949286c1575fa51e016661.svg",
+    "main.e8ccdf65.css.map": "/send-money/static/css/main.e8ccdf65.css.map",
+    "main.bd71f832.js.map": "/send-money/static/js/main.bd71f832.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8ccdf65.css",
+    "static/js/main.bd71f832.js"
+  ]
+}
